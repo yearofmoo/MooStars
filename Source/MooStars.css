@@ -1,0 +1,25 @@
+.moostars {
+  margin-bottom:10px;
+  background:#999;
+}
+
+.moostars,
+.star-messages {
+  display:inline-block;
+  vertical-align:top;
+}
+
+.moostars .star {
+  height:20px;
+  width:20px;
+  background:url("images/star.png") no-repeat center center;
+}
+
+.moostars .bar {
+  background:#007ABB;
+}
+
+.moostars.hover .bar,
+.moostars.rated .bar {
+  background:#FF9C00;
+}
